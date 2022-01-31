@@ -1,0 +1,18 @@
+pipeline{
+  agent any
+  stage("build"){
+    steps{
+      echo 'In the name of Allah! building...'
+    }
+  }
+  stage("test"){
+    steps{
+      echo 'In the name of Allah! testing...'
+    }
+  }
+  stage("deploy"){
+    steps{
+      echo 'In the name of Allah! deploying...'
+    }
+  }
+}
